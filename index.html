@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+      <!--NAVBAR-->
+  <nav class="navbar">
+    <div class="navbar__logo">
+      <span class="logo-icon">&#9670;</span>
+      <span class="logo-text">AvStudio</span>
+      <button id="dark-toggle" class="dark-btn">🌙 Dark Mode</button>
+    </div>
+    <ul class="navbar__links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="navbar__cta">
+      <a href="#" class="btn-primary">Hire Me</a>
+    </div>
+  </nav>
+  <!--HERO SECTION-->
+  <section class="hero" id="home">
+    <div class="hero__content">
+      <span class="hero__badge">Available for Work</span>
+      <h1 class="hero__title">
+        Hi, saya <span class="highlight">Vilar Siddik Avriansari</span><br>
+        Web Developer
+      </h1>
+      <p class="hero__desc">
+        Saya membangun website yang cepat, responsif, dan tampak profesional.
+        Mari buat sesuatu yang luar biasa bersama.
+      </p>
+      <div class="hero__actions">
+        <a href="#portfolio" class="btn-primary">Lihat Portfolio</a>
+        <a href="#contact" class="btn-outline">Hubungi Saya</a>
+      </div>
+    </div>
+  </section>
+  <section class="skills" id="about">
+    <div class="container">
+    <h2 class="section-title">Tentang Saya</h2>
+    <p class="section-subtitle">Sedikit cerita tentang saya</p>
+
+    <div class="about__content">
+
+      <div class="about__image">
+        <img src="assets/Profil.jpeg" alt="Foto">
+      </div>
+
+      <div class="about__text">
+        <p>
+          Saya adalah seorang Web Developer yang memiliki minat besar dalam
+          pembuatan website modern. Saya fokus membuat website yang cepat,
+          responsif, dan mudah digunakan.
+        </p>
+
+        <p>
+          Saya terbiasa menggunakan PHP, CSS, dan JavaScript untuk
+          membangun website yang profesional. Saya juga selalu belajar
+          teknologi baru agar kemampuan saya terus berkembang.
+        </p>
+      </div>
+
+    </div>
+  </div>
+    <div class="container">
+      <h2 class="section-titlee">Keahlian Saya</h2>
+      <p class="section-subtitle">Teknologi yang saya kuasai</p>
+
+      <div class="skills__grid">
+
+        <div class="skill-card">
+          <div class="skill-card__icon">&#128195;</div>
+          <h3>HTML5</h3>
+          <p>Semantic markup, aksesibilitas, dan struktur dokumen yang baik.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">&#127912;</div>
+          <h3>CSS3</h3>
+          <p>Flexbox, Grid, animasi, dan responsive design untuk semua layar.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">&#9889;</div>
+          <h3>JavaScript</h3>
+          <p>DOM manipulation, Fetch API, dan logika interaktif modern.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">&#128279;</div>
+          <h3>Git & GitHub</h3>
+          <p>Version control, branching, dan kolaborasi tim secara profesional.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">&#9881;</div>
+          <h3>React</h3>
+          <p>Component-based development dengan hooks dan state management.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">&#128640;</div>
+          <h3>Performance</h3>
+          <p>Optimasi loading, image compression, dan Core Web Vitals.</p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- PORTFOLIO SECTION -->
+<section class="portfolio" id="portfolio">
+  <div class="container">
+    <h2 class="section-title">Portfolio</h2>
+    <p class="section-subtitle">Beberapa project yang pernah saya buat</p>
+
+    <div class="portfolio__grid">
+
+      <div class="portfolio-card">
+        <img src="assets/Project1_2024.png" alt="Project 1">
+        <h3>Website Minimarket</h3>
+        <p>Website Minimarket sederhana yang mampu mengimplementasikan Pengolahan Data Barang dan Kasir.</p>
+      </div>
+
+      <div class="portfolio-card">
+        <img src="assets/Project2_2025.png" alt="Project 2">
+         <h3>Website Workshop</h3>
+        <p>Website Workshop sederhana menggunakan PHP, CSS dan JavaScript yang mampu megolah Data Barang dan Penghitungan Penjualan.</p>
+      </div>
+
+      <div class="portfolio-card">
+        <img src="assets/Project3_2026.png" alt="Project 3">
+        <h3>Aplikasi Kantor berbasis Desktop</h3>
+        <p>Aplikasi pengelolahan data berbasis Desktop menggunakan Java NetBeans dengan integrasi database MySQL.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- CONTACT SECTION -->
+<section class="contact" id="contact">
+  <div class="container">
+    <h2 class="section-title">Hubungi Saya</h2>
+    <p class="section-subtitle">Silakan kirim pesan jika ingin bekerja sama</p>
+
+    <form class="contact__form">
+      <div class="form-group">
+        <input type="text" placeholder="Nama Anda" required>
+      </div>
+
+      <div class="form-group">
+        <input type="email" placeholder="Email Anda" required>
+      </div>
+
+      <div class="form-group">
+        <textarea rows="5" placeholder="Pesan Anda"></textarea>
+      </div>
+
+      <button type="submit" class="btn-primary">Kirim Pesan</button>
+
+      <!-- SOCIAL BUTTON -->
+      <div class="contact__social">
+
+        <a href="https://wa.me/6281369254608" target="_blank" class="social-btn whatsapp">
+          <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
+
+        <a href="https://instagram.com/vilrsddk" target="_blank" class="social-btn instagram">
+          <i class="fab fa-instagram"></i> Instagram
+        </a>
+
+      </div>
+      <section class="counter-section">
+  <h2>Berapa Kali Kamu Minum Air Hari Ini?</h2>
+  <div class="counter-container">
+    <button id="btn-kurang" class="counter-btn">−</button>
+    <span id="angka-counter">0</span>
+    <button id="btn-tambah" class="counter-btn">+</button>
+  </div>
+  <p id="counter-pesan">Yuk mulai minum air!</p>
+</section>
+
+
+    </form>
+  </div>
+</section>
+  <!--FOOTER-->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <span class="footer__brand">&#9670; AvStudio</span>
+        <p class="footer__copy">
+          &copy; 2026 Vilar Siddik.
+        </p>
+        <div class="footer__links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
